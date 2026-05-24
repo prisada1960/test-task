@@ -37,8 +37,9 @@ PHP script for Excel processing and XML generation.
 
 ---
 
-# Project Structure
+## Project Structure
 
+```text
 project/
 
 ├── frontend/
