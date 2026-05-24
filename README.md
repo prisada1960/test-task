@@ -37,19 +37,28 @@ PHP script for Excel processing and XML generation.
 
 ---
 
-## Project Structure
+# Project Structure
 
-```text
 project/
+
+├── frontend/
+│   ├── index.html
+│   │
+│   ├── css/
+│   │   └── style.css
+│   │
+│   ├── js/
+│   │   └── main.js
+│   │
+│   └── images/
 │
-├── index.html
-├── main.php
+├── backend/
+│   ├── main.php
+│   ├── Import.xlsx
+│   ├── Тепла підлога прайс 2024.xlsx
+│   │
+│   └── result/
+│       ├── updated_import.xlsx
+│       └── marketplace.xml
 │
-├── css/
-├── js/
-├── images/
-│
-├── Import.xlsx
-├── Тепла підлога прайс 2024.xlsx
-│
-└── result/
+└── README.md
